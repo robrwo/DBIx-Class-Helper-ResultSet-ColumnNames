@@ -31,6 +31,10 @@ HTML table or to export as a spreadsheet, for example.
 
 ## get\_column\_names
 
+```perl
+my @header = $rs->get_column_names;
+```
+
 This method attempts to return the column names of the resultset.
 
 If no columns are specified using the `columns` or `select` attributes, then it will return the default columns names.
