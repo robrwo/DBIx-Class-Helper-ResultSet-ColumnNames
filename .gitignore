@@ -1,0 +1,4 @@
+DBIx-Class-Helper*-ColumnNames-*/
+DBIx-Class-Helper*-ColumnNames-*.tar.gz
+.build/
+cpanfile.snapshot
