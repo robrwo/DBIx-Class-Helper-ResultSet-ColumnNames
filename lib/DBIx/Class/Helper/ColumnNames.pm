@@ -49,8 +49,7 @@ If no columns are specified using the C<columns> or C<select> attributes, then i
 sub get_column_names ($self) {
     my @columns;
 
-    state sub _get_name {
-        my ($col) = @_;
+    state sub _get_name ($col) {
         if ( is_plain_hashref($col) ) {
             my ($name) = keys $col->%*;
             return $name;
