@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+v0.1.1    2024-09-25 16:44:41+01:00 Europe/London
   [Documentation]
   - Show an example to make it clear that get_column_names returns a list.
 
