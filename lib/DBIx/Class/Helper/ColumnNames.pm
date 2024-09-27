@@ -51,8 +51,8 @@ sub get_column_names ($self) {
 
     state sub _get_name ($col) {
         if ( is_plain_hashref($col) ) {
-            my ($name) = keys $col->%*;
-            return $name;
+            my (@names) = grep { $_ !~ /^\-/ } keys $col->%*;
+            return @names;
         }
         else {
             die "Cannot determine column name from a reference" if is_ref($col);

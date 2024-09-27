@@ -1,6 +1,9 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  [Enhancements]
+  - Added support for hashref columns attributes.
+
   [Toolchain]
   - Updated keywords in the distribution metadata.
 
