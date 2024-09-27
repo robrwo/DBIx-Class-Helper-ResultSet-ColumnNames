@@ -4,6 +4,9 @@ Revision history for {{$dist->name}}
   [Enhancements]
   - Added support for hashref columns attributes.
 
+  [Bug Fixes]
+  - Fixed the parent class.
+
   [Toolchain]
   - Updated keywords in the distribution metadata.
 

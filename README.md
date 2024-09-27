@@ -4,7 +4,7 @@ DBIx::Class::Helper::ColumnNames - Retrieve column names from a resultset
 
 # VERSION
 
-version v0.1.1
+version v0.1.2
 
 # SYNOPSIS
 

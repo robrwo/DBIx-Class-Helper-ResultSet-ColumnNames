@@ -5,7 +5,7 @@ package DBIx::Class::Helper::ColumnNames;
 use v5.20;
 use warnings;
 
-use parent 'DBIx::Class::ResultSet';
+use parent 'DBIx::Class';
 
 use Ref::Util qw( is_plain_hashref is_ref );
 
