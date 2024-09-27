@@ -44,6 +44,8 @@ This method attempts to return the column names of the resultset.
 
 If no columns are specified using the C<columns> or C<select> attributes, then it will return the default columns names.
 
+Note that when multiple columns are defined in a hash reference that the order of columns will be non-deterministic.
+
 =cut
 
 sub get_column_names ($self) {

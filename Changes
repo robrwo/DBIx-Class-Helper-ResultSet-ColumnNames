@@ -7,6 +7,9 @@ Revision history for {{$dist->name}}
   [Bug Fixes]
   - Fixed the parent class.
 
+  [Documentation]
+  - Added a note about column order.
+
   [Toolchain]
   - Updated keywords in the distribution metadata.
 

@@ -39,6 +39,8 @@ This method attempts to return the column names of the resultset.
 
 If no columns are specified using the `columns` or `select` attributes, then it will return the default columns names.
 
+Note that when multiple columns are defined in a hash reference that the order of columns will be non-deterministic.
+
 # CAVEATS
 
 This module is experimental, and relies on some internals from [DBIx::Class](https://metacpan.org/pod/DBIx%3A%3AClass).
