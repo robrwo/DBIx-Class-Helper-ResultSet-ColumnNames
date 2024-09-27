@@ -36,6 +36,6 @@ my $rs6 = $rs0->search_rs( undef,
 is [ $rs6->get_column_names ], [qw/ id finger_count /], "columns and +select";
 
 my $rs7 = $rs0->search_rs( undef, { columns => { id => 'artistid', nn => 'name' } } );
-is [ $rs7->get_column_names ], [qw/ id nn /], "columns hashref";
+is [ sort $rs7->get_column_names ], [qw/ id nn /], "columns hashref";
 
 done_testing;
