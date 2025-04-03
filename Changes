@@ -4,6 +4,8 @@ Revision history for {{$dist->name}}
   [Documentation]
   - Added a security policy.
 
+  - Update copyright year.
+
 v0.1.2    2024-09-27 17:22:51+01:00 Europe/London
   [Enhancements]
   - Added support for hashref columns attributes.
