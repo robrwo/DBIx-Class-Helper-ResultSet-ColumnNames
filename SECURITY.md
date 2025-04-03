@@ -1,19 +1,24 @@
 This is the Security Policy for the Perl distribution DBIx-Class-Helper-ColumnNames.
 
+Security vulnerabilities can be reported using this project's GitHub
+[Security Advisories](https://github.com/robrwo/DBIx-Class-Helper-ResultSet-ColumnNames/security/advisories).
+
 The latest version of this Security Policy can be found in the Git repository
 [https://github.com/robrwo/DBIx-Class-Helper-ResultSet-ColumnNames](https://github.com/robrwo/DBIx-Class-Helper-ResultSet-ColumnNames)
 
 This text is based on the CPAN Security Group's
 [Guidelines for Adding a Security Policy to Perl Distributions](https://security.metacpan.org/docs/guides/security-policy-for-authors.html)
-(version 0.1.9).
+(version 1.2.0).
 
 # How to Report a Security Vulnerability
 
-Security vulnerabilties can be reported by e-mail to the current
-project maintainer(s) at <rrwo@cpan.org>.
+Security vulnerabilities can be reported using this project's GitHub
+[Security Advisories](https://github.com/robrwo/DBIx-Class-Helper-ResultSet-ColumnNames/security/advisories).
 
 Please include as many details as possible, including code samples
-or test cases, so that we can reproduce the issue.
+or test cases, so that we can reproduce the issue.  Check that your
+report does not expose any sensitive data, such as passwords,
+tokens, or personal information.
 
 If you would like any help with triaging the issue, or if the issue
 is being actively exploited, please copy the report to the CPAN
